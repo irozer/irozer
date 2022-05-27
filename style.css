@@ -1,0 +1,112 @@
+#bet-title{
+    text-align:center;
+    background:linear-gradient(to top,rgb(30,240,40),rgba(30,240,40,0.1));
+    font-family:"Abril Fatface", cursive;
+    padding: 10px 15px;
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+    }
+#bet-title:hover{
+    padding:25px 25px;
+    transition: all 290ms ease;
+    transform:scale(1.5);
+    }
+#ico{
+    height:60px;
+    width:60px;
+    }
+body{
+    background-image:linear-gradient(to bottom,rgba(0,50,255,0.9),red,blue);
+    color:rgb(245,222,47);
+    animation:fadein 1.6s linear 0s 1 normal;
+    }
+h1{
+    font-size:50px;
+    }
+h2{
+    font-weight:bold;
+    font-size:40px;
+font-family: "Black Ops One", cursive;
+    }
+h3{
+    font-weight:bold;
+    font-family: "Black Ops One", cursive;
+    background-color:rgb(214,24,102);
+    padding:6px 10px;
+    border:2px solid rgb(245,222,47);
+    font-size:50px;
+    
+}
+h3:hover{
+    transform:scale(1.5);
+    transition: all 290ms ease;
+    }
+#intro{
+    color:rgb(30,240,40);
+    margin-right:60px;
+    margin-left:26px;
+    margin-top: 10px ;
+    font-size:35px;
+    font-weight:bold;
+    border:2px solid rgb(245,222,47);
+    }     
+    
+input{
+        margin-top:19px;
+        margin-left:15px;
+        padding:13px 66px;
+        display:block;
+        border:10px 10px;
+        background-color: rgb(240,240,57);
+        border-color:rgb(240,0,240);
+        
+}
+.sub{
+    margin: 29px 109px;
+    padding:9px;
+    font-size:larger;
+    font-family:sans-serif;
+    background-color:blue;
+    color:pink;
+    border:3px solid rgb(255,17,238);
+    }
+.sub:hover{
+    color:grey;
+    transition: all 300ms ease;
+    
+    }
+#log-form{
+    height:430px;
+    width:339px;
+    border:6px solid rgb(255,17,238);
+    
+    }
+.games{
+        display:flex;
+        margin:100px 40px;
+        padding:10px;
+        flex-direction:column;
+        align-items:center;
+        border:5px double rgb(245,222,47);
+
+        }
+.bgmi-img{
+    height:300px;
+    width:700px;
+    padding:9px;
+    border: 3px dotted rgb(255,17,238);
+    }
+.bgmi-img:hover{
+    transform:scale(1.5);
+    transition:all 230ms ease;
+    background:rgb(255,17,238);
+    }
+@keyframes fadein{
+    0%{
+        opacity:0;
+        }
+    100%{
+        opacity:1;
+        }
+    }
